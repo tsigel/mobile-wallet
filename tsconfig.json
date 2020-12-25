@@ -1,12 +1,18 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "target": "ES6",
     "jsx": "react-native",
     "lib": ["dom", "esnext"],
+    "typeRoots": [
+      "node_modules/@types",
+      "@types"
+    ],
     "moduleResolution": "node",
     "noEmit": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
+    "experimentalDecorators": true,
     "strict": true
   }
 }

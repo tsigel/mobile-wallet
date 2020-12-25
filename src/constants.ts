@@ -1,6 +1,6 @@
 import create from '@waves/node-api-js';
 
-export const NODE_URL = 'https://nodes-testnet.wavesnodes.com' ?? 'https://nodes.waves.exchange';
-export const SEED = 'merry help cycle scrub adult element initial old devote moon waste inside steel version post';
-
+export const NODE_URL = 'https://nodes.waves.exchange';
+export const DATA_SERVICE_URL = 'https://api.wavesplatform.com/v0'
+export const NETWORK_BYTE = 'W';
 export const api = create(NODE_URL);
